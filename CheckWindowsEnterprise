@@ -1,1 +1,1 @@
-dism /online /cleanup-image /checkHealth & dism /online /cleanup-image /scanhealth & dism /online /cleanup-image /restoreHealth & sfc /scannow & winsat formal -restart -clean
+dism /online /cleanup-image /checkHealth & dism /online /cleanup-image /scanhealth & dism /online /cleanup-image /restoreHealth & sfc /scannow & winsat formal -restart -clean & "C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe" /update user
