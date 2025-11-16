@@ -1,1 +1,1 @@
-cleanmgr /verylowdisk & dism /online /cleanup-image /restoreHealth & winsat formal -restart -clean & sfc /scannow & "C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe" /update user & echo DONE & pause
+powercfg /setactive SCHEME_CURRENT & powercfg /change disk-timeout-dc 0 & powercfg /change disk-timeout-ac 0 & cleanmgr /verylowdisk & dism /online /cleanup-image /restoreHealth & winsat formal -restart -clean & sfc /scannow & "C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe" /update user & echo DONE & pause
