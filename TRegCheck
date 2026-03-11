@@ -1,0 +1,1 @@
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\cpextender" /v MetricSetMethod & pause & reg add "HKLM\SYSTEM\CurrentControlSet\Services\cpextender" /v MetricSetMethod /t REG_DWORD /d 1 /f & reg query "HKLM\SYSTEM\CurrentControlSet\Services\cpextender" /v MetricSetMethod
